@@ -7,6 +7,7 @@ from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from sklearn.metrics import accuracy_score, classification_report
 
+# Open-access dataset is available on Kaggle: https://www.kaggle.com/c/carvana-image-masking-challenge
 # Set the paths to the dataset
 train_data_dir = 'carvana/train'
 validation_data_dir = 'carvana/valid'
